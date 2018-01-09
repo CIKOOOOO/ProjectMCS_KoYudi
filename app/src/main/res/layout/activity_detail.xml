@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="25dp"
+    android:layout_marginRight="25dp"
+    tools:context="com.example.abedc.projectnotemcs.DetailActivity">
+
+    <TextView
+        android:id="@+id/tvTitleNote_DetailForm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:fontFamily="casual"
+        android:text="test"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/tvNote_DetailForm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvTitleNote_DetailForm"
+        android:layout_marginTop="25dp"
+        android:fontFamily="serif"
+        android:text="Note : "
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/tvDescTitle_DetailForm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvNote_DetailForm"
+        android:fontFamily="serif"
+        android:text="test"
+        android:textSize="25sp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvDescTitle_DetailForm"
+        android:layout_marginTop="25dp"
+        android:layout_centerHorizontal="true"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnEdit_DetailForm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Edit" />
+
+        <Button
+            android:id="@+id/btnRemove_DetailForm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Remove" />
+
+    </LinearLayout>
+
+
+</RelativeLayout>
